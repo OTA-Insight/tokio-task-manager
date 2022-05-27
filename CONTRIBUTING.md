@@ -1,6 +1,6 @@
 # Contributing
 
-1. [File an issue](https://github.com/ota-insight/tokio-task-manager/issues/new/choose).
+1. [File an issue](https://github.com/OTA-Insight/tokio-task-manager/issues/new/choose).
    The issue will be used to discuss the bug or feature and should be created before opening a PR.
    > Best to even wait on actually developing it as to make sure
    > that we're all aligned on what you're trying to contribute,
@@ -9,7 +9,7 @@
 In case you also want to help resolve it by contributing to the code base you would continue as follows:
 
 2. Install Rust and configure correctly (https://www.rust-lang.org/tools/install).
-3. Clone the repo: `git clone https://github.com/ota-insight/tokio-task-manager`
+3. Clone the repo: `git clone https://github.com/OTA-Insight/tokio-task-manager`
 4. Change into the checked out source: `cd tokio-task-manager`
 5. Fork the repo.
 6. Set your fork as a remote: `git remote add fork git@github.com:GITHUB_USERNAME/news.git`

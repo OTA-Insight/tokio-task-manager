@@ -12,9 +12,9 @@ only when all active tasks were done with their ongoing work.
 [crates-badge]: https://img.shields.io/crates/v/tokio-task-manager.svg
 [crates-url]: https://crates.io/crates/tokio-task-manager
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[mit-url]: https://github.com/ota-insight/tokio-task-manager/blob/master/LICENSE
-[actions-badge]: https://github.com/ota-insight/tokio-task-manager/workflows/CI/badge.svg
-[actions-url]: https://github.com/ota-insight/tokio-task-manager/actions?query=workflow%3ACI+branch%main
+[mit-url]: https://github.com/OTA-Insight/tokio-task-manager/blob/master/LICENSE
+[actions-badge]: https://github.com/OTA-Insight/tokio-task-manager/workflows/CI/badge.svg
+[actions-url]: https://github.com/OTA-Insight/tokio-task-manager/actions?query=workflow%3ACI+branch%main
 
 ## Rust versions supported
 
