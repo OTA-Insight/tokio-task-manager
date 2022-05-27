@@ -12,7 +12,7 @@ only when all active tasks were done with their ongoing work.
 
 [crates-badge]: https://img.shields.io/crates/v/tokio-task-manager.svg
 [crates-url]: https://crates.io/crates/tokio-task-manager
-[docs-badge]: https://img.shields.io/docsrs/tokio_task_manager/latest
+[docs-badge]: https://img.shields.io/docsrs/tokio-task-manager/latest
 [docs-url]: https://docs.rs/tokio-task-manager/latest/tokio_task_manager/index.html
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [mit-url]: https://github.com/OTA-Insight/tokio-task-manager/blob/master/LICENSE
