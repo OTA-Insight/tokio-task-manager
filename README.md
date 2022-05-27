@@ -1,4 +1,4 @@
-# tokio-task-manager ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+# tokio-task-manager
 
 A crate which provides sync primitives with as main goal
 to allow an async application making use of [the Tokio runtime](https://tokio.rs/)
