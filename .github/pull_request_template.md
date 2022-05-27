@@ -29,4 +29,4 @@ discussed in your description above.
 ## Code of Conduct
 
 By submitting this pull request (PR), I Agree agree to follow this project's
-[Code of Conduct](https://github.com/OTA-Insight/tokio-task-manager/blob/main/CONTRIBUTING.md#contributor-code-of-conduct).
+[Code of Conduct](https://github.com/OTA-Insight/tokio-task-manager/blob/main/CODE_OF_CONDUCT.md).
