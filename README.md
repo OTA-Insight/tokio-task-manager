@@ -6,11 +6,14 @@ to be able to gracefully shutdown, meaning that ideally the server process exits
 only when all active tasks were done with their ongoing work.
 
 [![Crates.io][crates-badge]][crates-url]
+[![Docs.rs][docs-badge]][docs-url]
 [![MIT licensed][mit-badge]][mit-url]
 [![Build Status][actions-badge]][actions-url]
 
 [crates-badge]: https://img.shields.io/crates/v/tokio-task-manager.svg
 [crates-url]: https://crates.io/crates/tokio-task-manager
+[docs-badge]: https://img.shields.io/docsrs/tokio_task_manager/latest
+[docs-url]: https://docs.rs/tokio-task-manager/latest/tokio_task_manager/index.html
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [mit-url]: https://github.com/OTA-Insight/tokio-task-manager/blob/master/LICENSE
 [actions-badge]: https://github.com/OTA-Insight/tokio-task-manager/workflows/CI/badge.svg
