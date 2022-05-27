@@ -6,7 +6,7 @@ version = "0.1.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tokio = {version = "^1.18", features = ["rt-multi-thread", "macros"]}
+tokio = {version = "^1.18", features = ["rt-multi-thread", "sync", "time", "macros"]}
 tracing = "^0.1"
 
 [dev-dependencies]
