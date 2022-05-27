@@ -1,6 +1,16 @@
 [package]
+categories = ["asynchronous", "network-programming"]
+description = """
+Allow an async Tokio application to gracefully shutdown,
+waiting for all tasks to finish.
+"""
 edition = "2021"
+homepage = "https://github.com/OTA-Insight/tokio-task-manager"
+keywords = ["io", "async", "non-blocking", "futures"]
+license = "MIT"
 name = "tokio-task-manager"
+readme = "README.md"
+repository = "https://github.com/OTA-Insight/tokio-task-manager"
 version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
