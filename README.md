@@ -128,3 +128,27 @@ async fn main() {
     );
 }
 ```
+
+In case your application's root tasks are infinite loops you might wish
+to gracefully shutdown only once a SIGINT (CTRL+C) signal has been received.
+In this case you would instead of `tm.wait().await` do instead
+`tm.shutdown_gracefully_on_ctrl_c().await`.
+
+You can see this concept in action in the [TCP Echo Server Example](./examples/tcp-echo-server.rs)
+includes with this crate. You can run it as follows:
+
+```bash
+cargo run --example tcp-echo-server
+```
+
+In another terminal you can connect to it using for example telnet
+to see your own messages returned:
+
+```bash
+$ telnet 127.0.0.1 4000
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+hello
+hello
+```
