@@ -103,7 +103,8 @@ async fn main() {
     // sleep for 100ms, just to ensure that all child tasks have been spawned as well
     tokio::time::sleep(Duration::from_millis(100)).await;
 
-    // collect all results
+    // drop our sender such that rx.recv().await will return None,
+    // once our other senders have been dropped and the channel's buffer is empty
     drop(tx);
 
     // notify all spawned tasks that we wish to gracefully shut down
